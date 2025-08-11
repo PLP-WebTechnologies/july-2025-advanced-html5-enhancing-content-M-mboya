@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kwa Ukungu FC - Kitui County</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            padding: 20px;
+        }
+
+        header, footer {
+            background-color: #004d00;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h1, h2 {
+            color: #006400;
+        }
+
+        ul, ol, dl {
+            padding-left: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #ccffcc;
+        }
+
+        img, audio, video {
+            max-width: 100%;
+            margin-top: 10px;
+        }
+
+        fieldset {
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            background-color: #228B22;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #1e6f1e;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Kwa Ukungu FC - Kitui County</h1>
+    <p>Promoting Talent Through Football</p>
+</header>
+
+<main>
+
+    <section>
+        <h2>About the Club</h2>
+        <dl>
+            <dt>Founded:</dt>
+            <dd>1987</dd>
+            <dt>Location:</dt>
+            <dd>Kwa Ukungu, Kitui County</dd>
+            <dt>Club Motto:</dt>
+            <dd>"Unity, Strength, Victory"</dd>
+        </dl>
+    </section>
+
+    <section>
+        <h2>Training Schedule</h2>
+        <ol>
+            <li>Monday
+                <ul>
+                    <li>Morning fitness</li>
+                    <li>Evening ball control drills</li>
+                </ul>
+            </li>
+            <li>Wednesday
+                <ul>
+                    <li>Defensive strategies</li>
+                    <li>Penalty shootouts</li>
+                </ul>
+            </li>
+            <li>Saturday
+                <ul>
+                    <li>Full match simulation</li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Club Media</h2>
+
+        <h3>Team Photo</h3>
+        <img src="20240630_150307.jpg" alt="Kwa Ukungu FC team photo" width="500" height="300">
+
+        "Kwa Ukungu FC Team - 2024 Season"
+
+        <h3>Celebration Audio</h3>
+        <audio controls>
+            <source src="Neymar_Jr_●_Waka_Waka___Shakira_ᴴᴰ(128k).m4a" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h3>Match Highlights</h3>
+        <video width="320" height="240" controls>
+            <source src="BackFlip_Celebrations_In_Football_☠️🥶_#shorts_#ronaldo_#messi_#shortsvideo(144p).mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+    <section>
+        <h2>Player Roster</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Player Name</th>
+                    <th>Position</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dan Ngumbi</td>
+                    <td>Midfielder</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>Morris Kioko</td>
+                    <td>Forward</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>Joseph Umuu</td>
+                    <td>Defender</td>
+                    <td>29</td>
+                </tr>
+                <tr>
+                    <td>Michael Bert</td>
+                    <td>Forward</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Isaac Mutua</td>
+                    <td>Defender</td>
+                    <td>22</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Join the Club</h2>
+        <form action="submit.html" method="post" autocomplete="on">
+
+            <fieldset>
+                <legend>Member Registration</legend>
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="e.g. John Mbatha" required minlength="3">
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="e.g. john@example.com" required>
+
+                <label for="position">Preferred Playing Position:</label>
+                <select id="position" name="position" required>
+                    <option value="">--Select--</option>
+                    <option value="goalkeeper">Goalkeeper</option>
+                    <option value="defender">Defender</option>
+                    <option value="midfielder">Midfielder</option>
+                    <option value="forward">Forward</option>
+                </select>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <label for="id_number">National ID:</label>
+                <input type="text" id="id_number" name="id_number" pattern="[0-9]{8}" required placeholder="e.g. 12345678">
+
+                <label for="county">County:</label>
+                <input type="text" id="county" name="county" value="Kitui" readonly>
+
+                <label for="reason">Why do you want to join?</label>
+                <textarea id="reason" name="reason" rows="4" placeholder="Write briefly..." required></textarea>
+            </fieldset>
+
+            <input type="submit" value="Submit Application">
+        </form>
+    </section>
+
+</main>
+
+<footer>
+   Mike Mboya &copy; 2025 Kwa Ukungu FC - All rights reserved.
+</footer>
+
+</body>
+</html>

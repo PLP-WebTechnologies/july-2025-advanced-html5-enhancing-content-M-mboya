@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WEEK 2</title>
+</head>
+<body>
+
+    <h1>Enhanced HTML Elements</h1>
+
+    <h2>Definition List</h2>
+    <dl>
+        <dt>USA</dt>
+        <dd>United States of America</dd>
+        <dt>UAE</dt>
+        <dd>United Arab Emirates</dd>
+    </dl>
+
+    <h2>Nested List</h2>
+    <ol>
+        <li>Item 1
+            <ul>
+                <li>Subitem 1.1</li>
+                <li>Subitem 1.2</li>
+            </ul>
+        </li>
+        <li>Item 2
+            <ul>
+                <li>Subitem 2.1</li>
+                <li>Subitem 2.2</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>Multimedia</h2>
+
+    <h3>Images</h3>
+    <img src="image.jpg" alt="Sample image" width="300">
+
+    <h3>Audio</h3>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio playback.
+    </audio>
+
+    <h3>Video</h3>
+    <video width="320" height="240" controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video playback.
+    </video>
+
+    <h2>Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>GENDER</th>
+                <th>AGE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Oscar Vepe</td>
+                <td>Male</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Form</h2>
+    <form action="submit.html" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="country">Country:</label><br>
+        <select id="country" name="country">
+            <option value="kenya">Kenya</option>
+            <option value="usa">USA</option>
+            <option value="uae">UAE</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="40" placeholder="Type your message here..."></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
